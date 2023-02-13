@@ -5,7 +5,7 @@
 			<time datetime="<?php echo get_the_date( 'c' ); ?>" itemprop="datePublished" class="text-sm text-gray-700 w-full block text-center"><?php echo get_the_date(); ?></time>
 		</header>
 		<div class="w-full h-96">
-		<?php the_post_thumbnail('medium', array('class' => 'object-cover w-full h-full rounded shadow-material')); ?>
+		<?php the_post_thumbnail('large', array('class' => 'object-cover w-full h-full rounded shadow-material')); ?>
 		</div>
 
 		<div class="w-full">
